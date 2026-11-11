@@ -1,0 +1,7 @@
+# M5MonsterC5 (8 MB flash): one app slot, no OTA.
+#
+# Name,   Type, SubType, Offset,    Size,     Flags
+nvs,      data, nvs,     0x9000,    0x5000,
+otadata,  data, ota,     0xe000,    0x2000,
+factory,  app,  factory, 0x10000,   0x380000,
+coredump, data, coredump,0x390000,  0x10000,
